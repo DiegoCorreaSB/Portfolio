@@ -1,6 +1,6 @@
 import Profile from './components/profile'
 import Projects from './components/projects'
-import Webdesigner from './components/webDesigner'
+import Webdesigner from './components/webDesigner/webDesigner'
 import './index.css'
 import './style/app.css'
 
@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <main>
+
 
         <section id='container-profile'>
           <Profile />
@@ -19,7 +20,8 @@ function App() {
           <Projects />
         </section>
 
-        <h1 style={{marginTop: "150px"}}>Web Designer</h1>
+        <h1 style={{ marginTop: "150px" }}>Web Designer</h1>
+
         <section id="container-WebDesign">
           <Webdesigner />
         </section>

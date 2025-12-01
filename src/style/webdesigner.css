@@ -1,0 +1,31 @@
+.slide-image {
+    max-width: 800px;
+    margin: 0 auto;
+
+    mask-image: linear-gradient(to right,
+            transparent 0%,
+            black 20%,
+            black 80%,
+            transparent 100%);
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.inner-webdesigner {
+    display: flex;
+}
+
+.item-webdesigner {
+    min-width: 300px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.item-webdesigner img {
+    height: 90%;
+    width: 100%;
+    pointer-events: none;
+}
