@@ -1,9 +1,14 @@
 import cartaoVisita1 from "../../assets/cartao-visita1.jpg"
+import socialMedia1 from "../../assets/socialMedia1.jpeg"
+import socialMedia2 from "../../assets/socialMedia2.jpeg"
+import socialMedia3 from "../../assets/socialMedia3.webp"
+import socialMedia4 from "../../assets/socialMedia4.webp"
+import socialMedia5 from "../../assets/socialMedia5.jpg"
 import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from "react";
 import '../../style/webdesigner.css'
 
-const image = [cartaoVisita1, cartaoVisita1, cartaoVisita1, cartaoVisita1, cartaoVisita1, cartaoVisita1, cartaoVisita1, cartaoVisita1, cartaoVisita1];
+const image = [cartaoVisita1, socialMedia1, socialMedia2, socialMedia3, socialMedia4, socialMedia5];
 
 export default () => {
     const carousel = useRef<HTMLDivElement>(null);

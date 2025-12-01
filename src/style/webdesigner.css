@@ -29,3 +29,9 @@
     width: 100%;
     pointer-events: none;
 }
+
+#web-designer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

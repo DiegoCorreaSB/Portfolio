@@ -10,17 +10,11 @@ function App() {
     <>
       <main>
 
+        <Profile />
 
-        <section id='container-profile'>
-          <Profile />
-        </section>
-
-        <h1>Desenvolvimento</h1>
-        <section id="container-projects">
-          <Projects />
-        </section>
-
-        <h1 style={{ marginTop: "150px" }}>Web Designer</h1>
+        <Projects />
+        
+        <h1 style={{ marginTop: "150px" }}>Designer Digital</h1>
 
         <section id="container-WebDesign">
           <Webdesigner />
