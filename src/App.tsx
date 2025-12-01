@@ -1,5 +1,6 @@
 import Profile from './components/profile'
 import Projects from './components/projects'
+import Webdesigner from './components/webDesigner'
 import './index.css'
 import './style/app.css'
 
@@ -18,9 +19,9 @@ function App() {
           <Projects />
         </section>
 
-        <h1>Web Design</h1>
+        <h1 style={{marginTop: "150px"}}>Web Designer</h1>
         <section id="container-WebDesign">
-          
+          <Webdesigner />
         </section>
       </main>
 

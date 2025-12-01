@@ -19,6 +19,10 @@
         color: #00ff6e;
     }
 
+    h2 {
+        font-size: 28px;
+    }
+
     p {
         font-size: 20px;
         line-height: 1.5;
@@ -39,6 +43,8 @@
     }
 
     a:hover {
+        cursor: pointer;
+
         background-color: #00ff6e;
         transition: all .5s ease-in-out;
         .icon {
