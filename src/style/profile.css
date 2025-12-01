@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
 #container-profile {
     display: flex;
     align-items: center;
@@ -35,6 +37,7 @@
     max-width: 900px;
 
     h1{
+        font-family: 'Science Gothic', sans-serif;
         margin-bottom: 20px;
         color: #00ff6e;
     }

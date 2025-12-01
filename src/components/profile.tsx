@@ -1,6 +1,6 @@
 import perfil from '../assets/profile-diego.jpeg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn, faInstagram, faGithub, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import '../style/profile.css'
 
@@ -27,9 +27,10 @@ const Profile = () => {
                     </div>
 
                     <div id="description-icons">
-                        <a href="https://github.com/DiegoCorreaSB" title='Meu GitHub'> <FontAwesomeIcon className="icon" icon={faGithub} /> </a>
-                        <a href="#" title='Linkedin'> <FontAwesomeIcon className="icon" icon={faLinkedinIn} /> </a>
+                        <a href="https://github.com/DiegoCorreaSB" title='Meu GitHub' target='_blank'> <FontAwesomeIcon className="icon" icon={faGithub} /> </a>
+                        <a href="https://www.linkedin.com/in/diego-berto-7622902b2/" title='Linkedin' target='_blank'> <FontAwesomeIcon className="icon" icon={faLinkedinIn} /> </a>
                         <a href="https://www.instagram.com/dgcorrea__/" target="_blank" title='Instagram'> <FontAwesomeIcon className="icon" icon={faInstagram} /> </a>
+                        <a href="https://w.app/olpegu" target="_blank" title='WhatsApp'> <FontAwesomeIcon className="icon" icon={faWhatsapp} /> </a>
                         <a href="/curriculo.pdf" download title='Meu Currículo'> <FontAwesomeIcon className="icon" icon={faDownload} /> </a>
                     </div>
                 </div>
