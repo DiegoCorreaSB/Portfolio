@@ -4,16 +4,12 @@ const Webdesigner = () => {
     return (
         <>
             <article id="web-designer">
-                <h2>Web Designer</h2>
-                <p>Como web designer, crio designs atraentes e funcionais para sites e aplicações web, focando na experiência do usuário e na estética visual.</p>
+                <h2>Designer Gráfico</h2>
+                <p>Como Designer Gráfico, desenvolvo identidades visuais completas para empresas, sempre focando na experiência do usuário e na estética visual. Também realizo criação de materiais para Social Media e design de cartões de visita, unindo estratégia e criatividade para fortalecer a presença da sua marca.</p>
 
-
-                    <SlideImage />
-    
-
+                <SlideImage />
 
             </article>
-
         </>
     )
 }
