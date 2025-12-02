@@ -6,7 +6,11 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #181818;
+
+  --color--background: #181818;
+  --color--foreground: #121212;
+  --color--primary: #00ff6e;
+  --color--secondary: #3943B7;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,6 +24,7 @@
 }
 
 main {
+  background-color: var(--color--background);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,7 +40,7 @@ main>section {
   margin: 20px 0px;
 
   .icon {
-    color: #00ff6e;
+    color: var(--color--primary);
   }
 }
 

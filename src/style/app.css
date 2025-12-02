@@ -1,7 +1,14 @@
+:root {
+    --color--background: #181818;
+    --color--foreground: #121212;
+    --color--primary: #00ff6e;
+    --color--secondary: #3943B7;
+}
+
 
 #container-profile {
     display: flex;
-    align-items : center;
+    align-items: center;
     justify-content: center;
 
     padding: 0px;
@@ -13,8 +20,7 @@
         height: 400px;
         width: 400px;
 
-        border: 5px solid rgb(0, 255, 110);
+        border: 5px solid var(--color--primary);
         margin: 20px 0px;
     }
 }
-

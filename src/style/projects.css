@@ -1,3 +1,10 @@
+:root {
+    --color--background: #181818;
+    --color--foreground: #121212;
+    --color--primary: #00ff6e;
+    --color--secondary: #3943B7;
+}
+
 #container-projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -5,8 +12,8 @@
 }
 
 .project-card {
-    background-color: rgb(36, 36, 36);
-    border: 2px solid #00ff6e;
+    background-color: var(--color--foreground);
+    border: 2px solid var(--color--primary);
     border-radius: 10px;
     padding: 15px;
 
@@ -22,24 +29,24 @@
         display: flex;
         align-items: center;
         
-        border: 2px solid #00ff6e;
+        border: 2px solid var(--color--primary);
         gap: 10px;
         padding: 5px 15px;
 
         height: 20px;
         border-radius: 20px;
 
-        background-color: #00ff6e;
+        background-color: var(--color--primary);
         color: black;
     }
 
     a:hover{
         cursor: pointer;
 
-        color: #00ff6e;
+        color: var(--color--primary);
         background-color: #00000000;
 
-        border: 2px solid #00ff6e;
+        border: 2px solid var(--color--primary);
         transition: all .5s ease-in-out;
     }
 
@@ -47,11 +54,11 @@
         color: #000000;
     }
     a:hover {
-        box-shadow: 0 0 10px #00ff6e;
+        box-shadow: 0 0 10px var(--color--primary);
         transition: all .5s ease-in-out;
         
         .icon {
-            color: #00ff6e;
+            color: var(--color--primary);
             transition: all .5s ease-in-out;
         }
     }

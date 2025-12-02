@@ -1,3 +1,10 @@
+:root {
+    --color--background: #181818;
+    --color--foreground: #121212;
+    --color--primary: #00ff6e;
+    --color--secondary: #3943B7;
+}
+
 .slide-image {
     max-width: 800px;
     margin: 0 auto;
