@@ -1,0 +1,84 @@
+#hero-section {
+    margin: 0 auto;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+
+    max-width: 1280px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+}
+
+.conteiner-hero-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-hero,
+.info-hero {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img-hero {
+    justify-content: center;
+
+    img {
+        height: 500px;
+        width: 500px;
+        object-fit: contain;
+    }
+}
+
+.info-hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    h1 {
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 40px;
+        text-align: justify;
+    }
+}
+
+.hero-habilidade {
+    font-size: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--accent-bg);
+
+    .html-icon:hover {
+        color: #E34F26;
+    }
+    .css-icon:hover {
+        color: #1572B6;
+    }
+    .py-icon:hover {
+        color: #3776AB;
+    }
+    .react-icon:hover {
+        color: #61DAFB;
+    }
+    .js-icon:hover {
+        color: #F7DF1E;
+    }
+}
+
+.tech-icon {
+    cursor: pointer;
+    transition: color 0.7s ease;
+}
