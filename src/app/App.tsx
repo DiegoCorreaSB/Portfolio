@@ -1,16 +1,32 @@
 import './App.css'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar/NavBar'
 import hero from '../assets/hero.png'
 import '../index.css'
 import './App.css'
-import { FaHtml5, FaCss3, FaPython, FaReact  } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaPython, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import FloatingLines from '../components/bg-animaded/FloatingLines';
 
 function App() {
 
   return (
     <>
       <NavBar />
+        <div style={{ width: '100%', height: '950px', position: 'absolute' }}>
+          <FloatingLines
+            enabledWaves={["top", "middle", "bottom"]}
+            lineCount={8}
+            lineDistance={8}
+            bendRadius={8}
+            bendStrength={-2}
+            interactive={false}
+            parallax={true}
+            animationSpeed={1}
+            gradientStart="#0080ff"
+            gradientMid="#121212"
+            gradientEnd="#003263"
+          />
+        </div>
       <section id="hero-section">
         <div className='img-hero'><img src={hero} /></div>
         <div className='info-hero'>

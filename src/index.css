@@ -4,7 +4,7 @@
   --bg: #121212;
   --border: #0080ff;
   --code-bg: #1E1E1E;
-  --accent: #0080ff;
+  --accent: #c;
   --accent-bg: #1b73c91a;
   --accent-border: #1b73c966;
   --social-bg: #ffffff0d;
@@ -23,6 +23,14 @@
   @media (max-width: 1024px) {
     font-size: 16px;
   }
+}
+
+.floating-lines-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  filter: brightness(0.1);
 }
 
 * {

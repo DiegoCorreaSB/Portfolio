@@ -1,4 +1,4 @@
-import '../index.css'
+import '../../index.css'
 import './navbar.css'
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 

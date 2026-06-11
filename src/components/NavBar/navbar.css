@@ -11,7 +11,7 @@
     z-index: 1000;
 
     padding: 20px 30px;
-    color: var(--accent);
+    color: #0080ff;
     background-color: var(--bg);
 
 }
@@ -28,7 +28,6 @@
     gap: 100px;
 
     a {
-        color: var(--accent);
         display: inline-block;
         text-decoration: none;
         padding-bottom: 2px;
