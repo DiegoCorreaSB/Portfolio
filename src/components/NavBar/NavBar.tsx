@@ -9,7 +9,7 @@ const NavBar = () => {
                 <p>CORREA DEV</p>
             </div>
             <div className='navbar-links'>
-                <a href="">Home</a>
+                <a href="#hero-section">Home</a>
                 <a href="#">Projetos</a>
                 <a href="#">Certificações</a>
                 <a href="#">Contato</a>
